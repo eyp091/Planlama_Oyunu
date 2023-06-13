@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "1 Profili": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\escan\\Desktop\\PlanlamaOyunu3\\PlanlamaOyunu\\PlanlamaOyunu.PlanlamaOyunu\\obj\\Debug\\net6.0-windows\\apphost.exe"
+    }
+  }
+}

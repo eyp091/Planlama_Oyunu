@@ -1,0 +1,12 @@
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.Entities\bin\Debug\net6.0\PlanlamaOyunu.Entities.deps.json
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.Entities\bin\Debug\net6.0\PlanlamaOyunu.Entities.dll
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.Entities\bin\Debug\net6.0\PlanlamaOyunu.Entities.pdb
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.Entities\obj\Debug\net6.0\PlanlamaOyunu.Entities.csproj.AssemblyReference.cache
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.Entities\obj\Debug\net6.0\PlanlamaOyunu.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.Entities\obj\Debug\net6.0\PlanlamaOyunu.Entities.AssemblyInfoInputs.cache
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.Entities\obj\Debug\net6.0\PlanlamaOyunu.Entities.AssemblyInfo.cs
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.Entities\obj\Debug\net6.0\PlanlamaOyunu.Entities.csproj.CoreCompileInputs.cache
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.Entities\obj\Debug\net6.0\PlanlamaOyunu.Entities.dll
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.Entities\obj\Debug\net6.0\refint\PlanlamaOyunu.Entities.dll
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.Entities\obj\Debug\net6.0\PlanlamaOyunu.Entities.pdb
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.Entities\obj\Debug\net6.0\ref\PlanlamaOyunu.Entities.dll

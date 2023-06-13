@@ -1,0 +1,15 @@
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.DatabaseLogicLayer\bin\Debug\net6.0\PlanlamaOyunu.DatabaseLogicLayer.deps.json
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.DatabaseLogicLayer\bin\Debug\net6.0\PlanlamaOyunu.DatabaseLogicLayer.dll
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.DatabaseLogicLayer\bin\Debug\net6.0\PlanlamaOyunu.DatabaseLogicLayer.pdb
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.DatabaseLogicLayer\bin\Debug\net6.0\PlanlamaOyunu.Entities.dll
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.DatabaseLogicLayer\bin\Debug\net6.0\PlanlamaOyunu.Entities.pdb
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.DatabaseLogicLayer\obj\Debug\net6.0\PlanlamaOyunu.DatabaseLogicLayer.csproj.AssemblyReference.cache
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.DatabaseLogicLayer\obj\Debug\net6.0\PlanlamaOyunu.DatabaseLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.DatabaseLogicLayer\obj\Debug\net6.0\PlanlamaOyunu.DatabaseLogicLayer.AssemblyInfoInputs.cache
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.DatabaseLogicLayer\obj\Debug\net6.0\PlanlamaOyunu.DatabaseLogicLayer.AssemblyInfo.cs
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.DatabaseLogicLayer\obj\Debug\net6.0\PlanlamaOyunu.DatabaseLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.DatabaseLogicLayer\obj\Debug\net6.0\PlanlamaOyunu.DatabaseLogicLayer.csproj.CopyComplete
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.DatabaseLogicLayer\obj\Debug\net6.0\PlanlamaOyunu.DatabaseLogicLayer.dll
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.DatabaseLogicLayer\obj\Debug\net6.0\refint\PlanlamaOyunu.DatabaseLogicLayer.dll
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.DatabaseLogicLayer\obj\Debug\net6.0\PlanlamaOyunu.DatabaseLogicLayer.pdb
+C:\Users\escan\Desktop\PlanlamaOyunu3\PlanlamaOyunu\PlanlamaOyunu.DatabaseLogicLayer\obj\Debug\net6.0\ref\PlanlamaOyunu.DatabaseLogicLayer.dll
