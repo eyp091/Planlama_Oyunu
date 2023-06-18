@@ -1,5 +1,5 @@
  Emeği Geçenler : 
-- Eyüp Salih Candan (212xxxxxx)
+- Eyüp Salih Candan (212802065)
 - Batuhan Toy (212802057)
 # PlanlamaOyunu
 - Prog çalıştırılır ve giriş ekranı açılır.
