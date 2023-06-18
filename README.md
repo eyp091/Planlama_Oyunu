@@ -1,3 +1,6 @@
+ Emeği Geçenler : 
+- Eyüp Salih Candan (212xxxxxx)
+- Batuhan Toy (212802057)
 # PlanlamaOyunu
 - Prog çalıştırılır ve giriş ekranı açılır.
 - Sisteme kaydınız yoksa giriş ekranından kaydol butonuna basıp kullanıcı kayıt ekranına  yönlendirilir.
