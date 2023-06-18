@@ -7,6 +7,7 @@ Kaydı bulunan veya kayıt işlemini gerçekleştiren kullanıcılar giriş ekra
 Kullanıcılar takvim ekranında istedikleri tarihe olay ekleyebilir eklenen olayları silebilir veya değiştirebilir.
 Eklenen olay tarihi geldiğinde ekranda uyarı olarak bildirir.
 # Programın Kullanışı
+
  
 
 
