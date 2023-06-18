@@ -15,7 +15,7 @@
 - Kullanıcı programı açtığında onu karşılayan ilk ekran.
  - ETKİNLİK GÖRÜNTÜLEME EKRANI :
      ![d88620f9-93a3-4ad0-969e-0c47ca4fcfbe](https://github.com/eyp091/PlanlamaOyunu/assets/90304868/64fe0ec3-3e0d-48b9-b25b-fca2aa47c246)
-- Kullanıcı oluşturduğğu etkinlikleri görüntülemek için bu ekranı kullanır.
+- Kullanıcı oluşturduğu etkinlikleri görüntülemek için bu ekranı kullanır.
 - ETKİNLİK OLUŞTURMA EKRANI :
 ![2e3ae1ea-ab97-4395-a3f7-d6bce05bf618](https://github.com/eyp091/PlanlamaOyunu/assets/90304868/7dd361e3-6571-4c43-bb86-a9f4ce1f1abe)
 - Kullanıcı yeni bir etkinlik oluşturmak isterse bu ekranı kullanır.     
