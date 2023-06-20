@@ -19,5 +19,7 @@ namespace PlanlamaOyunu.Entities
         public string adres { get; set; }
         public string tel { get; set; }
         public string tip { get; set; }
+
+        
     }
 }

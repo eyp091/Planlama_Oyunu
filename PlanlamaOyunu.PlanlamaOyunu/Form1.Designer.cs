@@ -67,6 +67,8 @@
             // 
             // txbKullaniciAdi
             // 
+            this.txbKullaniciAdi.BackColor = System.Drawing.Color.Chocolate;
+            this.txbKullaniciAdi.ForeColor = System.Drawing.Color.White;
             this.txbKullaniciAdi.Location = new System.Drawing.Point(919, 284);
             this.txbKullaniciAdi.Name = "txbKullaniciAdi";
             this.txbKullaniciAdi.Size = new System.Drawing.Size(165, 27);
@@ -85,8 +87,11 @@
             // 
             // txbSifre
             // 
+            this.txbSifre.BackColor = System.Drawing.Color.Chocolate;
+            this.txbSifre.ForeColor = System.Drawing.Color.White;
             this.txbSifre.Location = new System.Drawing.Point(919, 317);
             this.txbSifre.Name = "txbSifre";
+            this.txbSifre.PasswordChar = '*';
             this.txbSifre.Size = new System.Drawing.Size(165, 27);
             this.txbSifre.TabIndex = 2;
             // 

@@ -8,12 +8,15 @@ namespace PlanlamaOyunu.Entities
 {
     public class Planlar
     {
+        public int planID { get; set; }
         public string kullaniciAdi { get; set; }
         public string islemZamani { get; set; }
         public string baslangicZamani { get; set; }
         public string bitisZamani { get; set; }
         public string tip { get; set; }
         public string aciklama { get; set; }
+        public string alarm { get; set; }
+
 
         public override string ToString()
         {

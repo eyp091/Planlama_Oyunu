@@ -79,6 +79,8 @@
             // 
             // txbAd
             // 
+            this.txbAd.BackColor = System.Drawing.Color.Chocolate;
+            this.txbAd.ForeColor = System.Drawing.Color.White;
             this.txbAd.Location = new System.Drawing.Point(697, 262);
             this.txbAd.Name = "txbAd";
             this.txbAd.Size = new System.Drawing.Size(153, 27);
@@ -95,6 +97,8 @@
             // 
             // txbSoyad
             // 
+            this.txbSoyad.BackColor = System.Drawing.Color.Chocolate;
+            this.txbSoyad.ForeColor = System.Drawing.Color.White;
             this.txbSoyad.Location = new System.Drawing.Point(697, 295);
             this.txbSoyad.Name = "txbSoyad";
             this.txbSoyad.Size = new System.Drawing.Size(153, 27);
@@ -111,6 +115,8 @@
             // 
             // txbKullaniciAdi
             // 
+            this.txbKullaniciAdi.BackColor = System.Drawing.Color.Chocolate;
+            this.txbKullaniciAdi.ForeColor = System.Drawing.Color.White;
             this.txbKullaniciAdi.Location = new System.Drawing.Point(697, 328);
             this.txbKullaniciAdi.Name = "txbKullaniciAdi";
             this.txbKullaniciAdi.Size = new System.Drawing.Size(153, 27);
@@ -127,6 +133,8 @@
             // 
             // txbSifre
             // 
+            this.txbSifre.BackColor = System.Drawing.Color.Chocolate;
+            this.txbSifre.ForeColor = System.Drawing.Color.White;
             this.txbSifre.Location = new System.Drawing.Point(697, 361);
             this.txbSifre.Name = "txbSifre";
             this.txbSifre.Size = new System.Drawing.Size(153, 27);
@@ -152,6 +160,8 @@
             // 
             // mtxbTcno
             // 
+            this.mtxbTcno.BackColor = System.Drawing.Color.Chocolate;
+            this.mtxbTcno.ForeColor = System.Drawing.Color.White;
             this.mtxbTcno.Location = new System.Drawing.Point(957, 295);
             this.mtxbTcno.Mask = "00000000000";
             this.mtxbTcno.Name = "mtxbTcno";
@@ -179,6 +189,8 @@
             // 
             // mtxbTel
             // 
+            this.mtxbTel.BackColor = System.Drawing.Color.Chocolate;
+            this.mtxbTel.ForeColor = System.Drawing.Color.White;
             this.mtxbTel.Location = new System.Drawing.Point(957, 361);
             this.mtxbTel.Mask = "(999) 000-0000";
             this.mtxbTel.Name = "mtxbTel";
@@ -196,6 +208,8 @@
             // 
             // txbTip
             // 
+            this.txbTip.BackColor = System.Drawing.Color.Chocolate;
+            this.txbTip.ForeColor = System.Drawing.Color.White;
             this.txbTip.Location = new System.Drawing.Point(697, 394);
             this.txbTip.Name = "txbTip";
             this.txbTip.Size = new System.Drawing.Size(153, 27);
@@ -215,6 +229,8 @@
             // 
             // txbAdres
             // 
+            this.txbAdres.BackColor = System.Drawing.Color.Chocolate;
+            this.txbAdres.ForeColor = System.Drawing.Color.White;
             this.txbAdres.Location = new System.Drawing.Point(957, 328);
             this.txbAdres.Name = "txbAdres";
             this.txbAdres.Size = new System.Drawing.Size(153, 27);
@@ -222,6 +238,8 @@
             // 
             // txbEmail
             // 
+            this.txbEmail.BackColor = System.Drawing.Color.Chocolate;
+            this.txbEmail.ForeColor = System.Drawing.Color.White;
             this.txbEmail.Location = new System.Drawing.Point(957, 262);
             this.txbEmail.Name = "txbEmail";
             this.txbEmail.Size = new System.Drawing.Size(153, 27);

@@ -27,7 +27,7 @@ namespace PlanlamaOyunu.PlanlamaOyunu
             int returnValues = bll.sistemKontrol(txbKullaniciAdi.Text, txbSifre.Text);
             if (returnValues > 0)
             {
-                Takvim takvim = new Takvim();
+                Takvim takvim = new Takvim(kullaniciAdi());
                 takvim.Show();
                 this.Hide();
             }
@@ -35,6 +35,11 @@ namespace PlanlamaOyunu.PlanlamaOyunu
             {
                 MessageBox.Show("Hatalý giriþ");
             }
+        }
+
+        private string kullaniciAdi()
+        {
+            return txbKullaniciAdi.Text;
         }
 
         private void lnkKayitOl_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

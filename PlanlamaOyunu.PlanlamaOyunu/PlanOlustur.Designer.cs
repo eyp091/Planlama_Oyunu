@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PlanOlustur));
             this.rtbAciklama = new System.Windows.Forms.RichTextBox();
             this.txbTip = new System.Windows.Forms.TextBox();
             this.mtbBitis = new System.Windows.Forms.MaskedTextBox();
@@ -42,33 +43,35 @@
             this.label6 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.cmbAlarm = new System.Windows.Forms.ComboBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // rtbAciklama
             // 
-            this.rtbAciklama.BackColor = System.Drawing.Color.SlateBlue;
+            this.rtbAciklama.BackColor = System.Drawing.Color.SaddleBrown;
             this.rtbAciklama.ForeColor = System.Drawing.Color.White;
-            this.rtbAciklama.Location = new System.Drawing.Point(350, 146);
+            this.rtbAciklama.Location = new System.Drawing.Point(352, 113);
             this.rtbAciklama.Name = "rtbAciklama";
-            this.rtbAciklama.Size = new System.Drawing.Size(125, 120);
+            this.rtbAciklama.Size = new System.Drawing.Size(125, 119);
             this.rtbAciklama.TabIndex = 4;
             this.rtbAciklama.Text = "";
             // 
             // txbTip
             // 
-            this.txbTip.BackColor = System.Drawing.Color.SlateBlue;
+            this.txbTip.BackColor = System.Drawing.Color.SaddleBrown;
             this.txbTip.ForeColor = System.Drawing.Color.White;
-            this.txbTip.Location = new System.Drawing.Point(350, 110);
+            this.txbTip.Location = new System.Drawing.Point(126, 242);
             this.txbTip.Name = "txbTip";
             this.txbTip.Size = new System.Drawing.Size(122, 27);
             this.txbTip.TabIndex = 3;
             // 
             // mtbBitis
             // 
-            this.mtbBitis.BackColor = System.Drawing.Color.SlateBlue;
+            this.mtbBitis.BackColor = System.Drawing.Color.SaddleBrown;
             this.mtbBitis.ForeColor = System.Drawing.Color.White;
-            this.mtbBitis.Location = new System.Drawing.Point(126, 175);
+            this.mtbBitis.Location = new System.Drawing.Point(126, 195);
             this.mtbBitis.Mask = "00:00";
             this.mtbBitis.Name = "mtbBitis";
             this.mtbBitis.Size = new System.Drawing.Size(71, 27);
@@ -78,9 +81,9 @@
             // 
             // mtbBaslangic
             // 
-            this.mtbBaslangic.BackColor = System.Drawing.Color.SlateBlue;
+            this.mtbBaslangic.BackColor = System.Drawing.Color.SaddleBrown;
             this.mtbBaslangic.ForeColor = System.Drawing.Color.White;
-            this.mtbBaslangic.Location = new System.Drawing.Point(126, 143);
+            this.mtbBaslangic.Location = new System.Drawing.Point(126, 149);
             this.mtbBaslangic.Mask = "00:00";
             this.mtbBaslangic.Name = "mtbBaslangic";
             this.mtbBaslangic.Size = new System.Drawing.Size(71, 27);
@@ -100,7 +103,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(268, 146);
+            this.label5.Location = new System.Drawing.Point(270, 113);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(73, 20);
             this.label5.TabIndex = 0;
@@ -109,7 +112,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(43, 178);
+            this.label3.Location = new System.Drawing.Point(43, 198);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(77, 20);
             this.label3.TabIndex = 0;
@@ -118,7 +121,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(268, 113);
+            this.label4.Location = new System.Drawing.Point(44, 245);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(76, 20);
             this.label4.TabIndex = 0;
@@ -127,7 +130,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(8, 146);
+            this.label2.Location = new System.Drawing.Point(8, 152);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(112, 20);
             this.label2.TabIndex = 0;
@@ -145,7 +148,7 @@
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button1.BackColor = System.Drawing.Color.SlateBlue;
+            this.button1.BackColor = System.Drawing.Color.SaddleBrown;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(462, 5);
@@ -171,9 +174,9 @@
             // 
             this.button2.BackColor = System.Drawing.Color.SlateGray;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(43, 224);
+            this.button2.Location = new System.Drawing.Point(352, 242);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(154, 42);
+            this.button2.Size = new System.Drawing.Size(125, 30);
             this.button2.TabIndex = 8;
             this.button2.Text = "Kaydet";
             this.button2.UseVisualStyleBackColor = false;
@@ -194,12 +197,36 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(497, 38);
             this.tableLayoutPanel1.TabIndex = 9;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(37, 287);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(83, 20);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Hatırlatma:";
+            // 
+            // cmbAlarm
+            // 
+            this.cmbAlarm.BackColor = System.Drawing.Color.SaddleBrown;
+            this.cmbAlarm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmbAlarm.ForeColor = System.Drawing.Color.White;
+            this.cmbAlarm.FormattingEnabled = true;
+            this.cmbAlarm.Items.AddRange(new object[] {
+            "Olay anında",
+            "5 dakika önce"});
+            this.cmbAlarm.Location = new System.Drawing.Point(126, 284);
+            this.cmbAlarm.Name = "cmbAlarm";
+            this.cmbAlarm.Size = new System.Drawing.Size(122, 28);
+            this.cmbAlarm.TabIndex = 10;
+            // 
             // PlanOlustur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SlateBlue;
+            this.BackColor = System.Drawing.Color.SaddleBrown;
             this.ClientSize = new System.Drawing.Size(500, 500);
+            this.Controls.Add(this.cmbAlarm);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.rtbAciklama);
@@ -210,10 +237,12 @@
             this.Controls.Add(this.lblTarih);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label5);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PlanOlustur";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PlanOlustur";
@@ -239,5 +268,7 @@
         private Label label6;
         private Button button2;
         private TableLayoutPanel tableLayoutPanel1;
+        private Label label7;
+        private ComboBox cmbAlarm;
     }
 }

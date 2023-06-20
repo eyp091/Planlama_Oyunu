@@ -92,14 +92,15 @@ namespace PlanlamaOyunu.DatabaseLogicLayer
         {
             try
             {
-                cmd = new SqlCommand("insert into tblPlan (KullaniciAdi, IslemZamani, BaslangicZamani, BitisZamani, Tip, Aciklama) " +
-                    "values (@KullaniciAdi, @IslemZamani, @BaslangicZamani, @BitisZamani, @Tip, @Aciklama)", con);
+                cmd = new SqlCommand("insert into tblPlan (KullaniciAdi, IslemZamani, BaslangicZamani, BitisZamani, Tip, Aciklama, Alarm) " +
+                    "values (@KullaniciAdi, @IslemZamani, @BaslangicZamani, @BitisZamani, @Tip, @Aciklama, @Alarm)", con);
                 cmd.Parameters.Add("@KullaniciAdi", SqlDbType.NVarChar).Value = planlar.kullaniciAdi;
                 cmd.Parameters.Add("@IslemZamani", SqlDbType.NVarChar).Value = planlar.islemZamani;
                 cmd.Parameters.Add("@BaslangicZamani", SqlDbType.NVarChar).Value = planlar.baslangicZamani;
                 cmd.Parameters.Add("@BitisZamani", SqlDbType.NVarChar).Value = planlar.bitisZamani;
                 cmd.Parameters.Add("@Tip", SqlDbType.NVarChar).Value = planlar.tip;
                 cmd.Parameters.Add("@Aciklama", SqlDbType.NVarChar).Value = planlar.aciklama;
+                cmd.Parameters.Add("@Alarm", SqlDbType.NVarChar).Value = planlar.alarm;
                 BaglantiAyarla();
                 returnValues = cmd.ExecuteNonQuery();
             }
@@ -115,12 +116,71 @@ namespace PlanlamaOyunu.DatabaseLogicLayer
             return returnValues;
         }
 
-        public SqlDataReader planListele()
+        public SqlDataReader planListele(string kullaniciAdi)
         {
-            cmd = new SqlCommand("select * from tblPlan", con);
+            cmd = new SqlCommand("select * from tblPlan where KullaniciAdi = @kullaniciAdi", con);
+            cmd.Parameters.Add("@kullaniciAdi", SqlDbType.NVarChar).Value = kullaniciAdi;
             BaglantiAyarla();
             return cmd.ExecuteReader();
         }
+
+        public SqlDataReader bilgiListele(string kullaniciAdi)
+        {
+            cmd = new SqlCommand("select Ad, Soyad, KullaniciAdi, Tip from tblKullanici where KullaniciAdi = @kullaniciAdi", con);
+            cmd.Parameters.Add("@kullaniciAdi", SqlDbType.NVarChar).Value = kullaniciAdi;
+            BaglantiAyarla();
+            return cmd.ExecuteReader();
+        }
+
+        public int planDuzenle(Planlar planlar)
+        {
+            try
+            {
+                cmd = new SqlCommand("update tblPlan set IslemZamani = @IslemZamani, BaslangicZamani = @BaslangicZamani, BitisZamani = @BitisZamani, Tip = @Tip, Aciklama = @Aciklama, Alarm = @Alarm where PlanID = @planId", con);
+                cmd.Parameters.Add("@planId", SqlDbType.Int).Value = planlar.planID;
+                cmd.Parameters.Add("@IslemZamani", SqlDbType.NVarChar).Value = planlar.islemZamani;
+                cmd.Parameters.Add("@BaslangicZamani", SqlDbType.NVarChar).Value = planlar.baslangicZamani;
+                cmd.Parameters.Add("@BitisZamani", SqlDbType.NVarChar).Value = planlar.bitisZamani;
+                cmd.Parameters.Add("@Tip", SqlDbType.NVarChar).Value = planlar.tip;
+                cmd.Parameters.Add("@Aciklama", SqlDbType.NVarChar).Value = planlar.aciklama;
+                cmd.Parameters.Add("@Alarm", SqlDbType.NVarChar).Value = planlar.alarm;
+                BaglantiAyarla();
+                returnValues = cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+
+                
+            }
+            finally
+            {
+                BaglantiAyarla();
+            }
+            return returnValues;
+        }
+
+        public int planSil(int planId)
+        {
+            try
+            {
+                cmd = new SqlCommand("delete tblPlan where PlanID = @planId", con);
+                cmd.Parameters.Add("@planId", SqlDbType.Int).Value = planId;
+                
+                BaglantiAyarla();
+                returnValues = cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+
+                
+            }
+            finally
+            {
+                BaglantiAyarla();
+            }
+            return returnValues;
+        }
+
     }
 
    
