@@ -11,7 +11,7 @@
 - Eklenen olay tarihi geldiğinde ekranda alert bildirilir.
 # Programın Kullanışı
  - KULLANICI KAYIT EKRANI :
-![295d43a7-10c2-4f23-9990-52fbe220d497](https://github.com/eyp091/PlanlamaOyunu/assets/90304868/5812fddb-10b8-4bf3-9f2d-7855fe35c361)
+![295d43a7-10c2-4f23-9990-52fbe220d497](https://github.com/eyp091/PlanlamaOyunu/blob/main/Foto%C4%9Fraflar/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-07-11%20223441.png?raw=true)
 - Kullanıcı olarak giriş yapmanız için gereken ekran.
  - KULLANICI GİRİŞ EKRANI :
   ![56bfa6c1-2e12-4312-8482-5be7882b635f](https://github.com/eyp091/PlanlamaOyunu/assets/90304868/47527368-6c5b-488c-9b4c-df33be2c2ea6)
