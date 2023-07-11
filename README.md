@@ -30,7 +30,7 @@
 - Kullanıcı oluşturduğu etkinliği düzenlemek isterse bu ekranı kullanır. Sayfayı yenile butonuna tıklayarak yapılan değişiklikleri görüntüler.
 - ETKİNLİK SİLME EKRANI :
 ![düzenle](https://github.com/eyp091/PlanlamaOyunu/blob/main/Foto%C4%9Fraflar/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-07-11%20223659.png?raw=true)
-- Kullanıcı oluşturduğu etkinliği silmek isterse sil butonuna tıklar ve etkinik silinir. Sayfayı yenile butonuna tıklayarak yapılan değişiklikleri görüntüler.
+- Kullanıcı oluşturduğu etkinliği silmek isterse sil butonuna tıklar ve etkinlik silinir. Sayfayı yenile butonuna tıklayarak yapılan değişiklikleri görüntüler.
 # Scrum Table
 ![Scrum](https://github.com/eyp091/PlanlamaOyunu/assets/90304868/d15a815e-90a1-47d0-809a-0a147ee5cbad)
 
